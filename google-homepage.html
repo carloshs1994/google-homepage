@@ -1,0 +1,53 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="description" content="Google homepage">
+        <title>Google</title>
+        <link rel="stylesheet" href="style-page.css">
+    </head>
+    <body>
+        
+        <nav>
+            <ul class="navbar-container">
+                <div class="nav-item"><a id="gmail" href="https://accounts.google.com/ServiceLogin/signinchooser?service=mail&passive=true&rm=false&continue=https%3A%2F%2Fmail.google.com%2Fmail%2F%3Ftab%3Dwm&scc=1&ltmpl=default&ltmplcache=2&emr=1&osid=1&flowName=GlifWebSignIn&flowEntry=ServiceLogin">Gmail</a></div>
+                <div class="nav-item"><a id="images" href="https://www.google.com.mx/imghp?hl=es&tab=wi">Imágenes</a></div>
+                <a href="#">
+                    <div class="nav-item icon"><img id="menu" src="menu-hover.png" ></div>
+                </a>
+                <div class="nav-item"><button class="button" onclick="location.href='https://accounts.google.com/ServiceLogin?hl=es-419&passive=true&continue=https://www.google.com/'">Iniciar sesión</button></div>
+            </ul>
+        </nav>
+        
+        <main>
+            <div class="logo"><img id="logo" src="logo.png" alt="Google logo"></div>
+            <form class="search-form" action="search" style="overflow:visible" method="GET" name="f" onsubmit="return q.value!=''" role="search">
+                <div class="text-field">
+                    <input class="input-text" type="text">
+                </div>
+                <ul class="search-buttons">
+                    <input type="button" value="Buscar con Google">
+                    <input type="button" value="Me siento con suerte">
+                </ul>
+            </form><!--Search bar-->
+        </main><!--page's structure; main container-->
+    
+        <div class="footer-container">
+            <div id="footer-top-style"></div>
+            <div class="location">México</div>
+            <div class="footer-bottom">
+                <div class="footer-left">
+                    <div class="link-box"><a href="https://ads.google.com/intl/es-419_mx/home/?subid=ww-ww-et-g-awa-a-g_hpafoot1_1!o2&utm_source=google.com&utm_medium=referral&utm_campaign=google_hpafooter&fg=1">Publicidad</a></div>
+                    <div class="link-box"><a href="https://www.google.com.mx/services/?subid=ww-ww-et-g-awa-a-g_hpbfoot1_1!o2&utm_source=google.com&utm_medium=referral&utm_campaign=google_hpbfooter&fg=1#?modal_active=none">Negocios</a></div>
+                    <div class="link-box"><a href="https://www.google.com.mx/intl/es-419_mx/about/?utm_source=google-MX&utm_medium=referral&utm_campaign=hp-footer&fg=1">Acerca de</a></div>
+                </div>
+                <div class="footer-right">
+                    <div class="link-box"><a href="https://policies.google.com/privacy?hl=es-419&gl=mx">Privacidad</a></div>
+                    <div class="link-box"><a href="https://policies.google.com/terms?hl=es-419&gl=mx">Condiciones</a></div>
+                    <div class="link-box"><a href="#">Preferencias</a></div>
+                </div>
+            </div>
+        </div>
+
+    </body>
+</html>
